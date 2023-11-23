@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jp site</title>
-  <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/output.css">
-  <link rel="stylesheet" href="../css/index.css">
-  <script defer src="../js/index.js"></script>
-</head>
-<body>
-  <header class="flex flex-row justify-between p-5">
-    <img src="../../public/icon.png" alt="">
-    <nav>
-      <ul class="flex flex-row gap-4">
-        <li>Home</li>
-        <li>Join us</li>
-        <li>Lesons</li>
-        <li>About us</li>
-        <li>Contacts</li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jp site</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <script defer src="../js/index.js"></script>
+  </head>
   <body>
-    
+    <header class="flex flex-row items-centers justify-between p-5">
+      <img class="max-h-[50px]" src="../img/icon.png" alt="icon" />
+      <nav class="hidden md:flex items-center ">
+        <ul class="flex flex-row gap-4">
+          <li>Home</li>
+          <li>Join us</li>
+          <li>Lesons</li>
+          <li>About us</li>
+          <li>Contacts</li>
+        </ul>
+      </nav>
+      <p class="text-3xl flex items-center md:hidden">☰</p>
+    </header>
+    <body></body>
+    <footer
+      class="flex flex-col lg:flex-row justify-around items-center p-5 gap-7 bg-stone-700 text-white"
+    >
+      <img class="max-w-[250px]" src="../img/icon.png" alt="icon" />
+      <nav>
+        <h3
+          class="text-center text-xl font-bold border-b-2 border-white  border-solid mb-2"
+        >
+          Links
+        </h3>
+        <ul class="flex flex-col md:flex-row gap-4 text-center">
+          <li>Home</li>
+          <li>Join us</li>
+          <li>Lessons</li>
+          <li>About us</li>
+          <li>Contacts</li>
+        </ul>
+      </nav>
+      <div class="flex flex-col gap-2">
+        <h3
+          class="text-center text-xl font-bold border-b-2 border-white border-solid mb-2"
+        >
+          Contacts
+        </h3>
+        <p>Lorem ipsum dolor, sit amet</p>
+        <p>Lorem ipsum dolor, sit amet</p>
+        <p>Lorem ipsum dolor, sit amet</p>
+        <p>Lorem ipsum dolor, sit amet</p>
+      </div>
+    </footer>
   </body>
-  <footer class="flex flex-col sm:flex-row justify-between items-center p-5 gap-5">
-    <img src="../../public/icon.png" alt="">
-    <nav>
-      <ul class="flex flex-col sm:flex-row gap-4">
-        <li>Home</li>
-        <li>Join us</li>
-        <li>Lesons</li>
-        <li>About us</li>
-        <li>Contacts</li>
-      </ul>
-    </nav>
-    <div class="flex flex-col gap-2">
-      <h3 class="text-center text-xl border-b-2 border-black border-solid">Contacts</h3>
-      <p>Lorem ipsum dolor, sit amet</p>
-      <p>Lorem ipsum dolor, sit amet</p>
-      <p>Lorem ipsum dolor, sit amet</p>
-      <p>Lorem ipsum dolor, sit amet</p>
-    </div>
-  </footer>
-</body>
 </html>
