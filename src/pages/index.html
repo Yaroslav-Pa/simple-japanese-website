@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jp site</title>
   <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/output.css">
   <link rel="stylesheet" href="../css/index.css">
   <script defer src="../js/index.js"></script>
 </head>
 <body>
-  <header class="">
+  <header class="flex flex-row justify-between p-5">
     <img src="../../public/icon.png" alt="">
     <nav>
-      <ul>
+      <ul class="flex flex-row gap-4">
         <li>Home</li>
         <li>Join us</li>
         <li>Lesons</li>
@@ -24,10 +25,10 @@
   <body>
     
   </body>
-  <footer>
+  <footer class="flex flex-col sm:flex-row justify-between items-center p-5 gap-5">
     <img src="../../public/icon.png" alt="">
     <nav>
-      <ul>
+      <ul class="flex flex-col sm:flex-row gap-4">
         <li>Home</li>
         <li>Join us</li>
         <li>Lesons</li>
@@ -35,7 +36,8 @@
         <li>Contacts</li>
       </ul>
     </nav>
-    <div>
+    <div class="flex flex-col gap-2">
+      <h3 class="text-center text-xl border-b-2 border-black border-solid">Contacts</h3>
       <p>Lorem ipsum dolor, sit amet</p>
       <p>Lorem ipsum dolor, sit amet</p>
       <p>Lorem ipsum dolor, sit amet</p>
