@@ -9,40 +9,47 @@
     <link rel="stylesheet" href="../css/index.css" />
     <script defer src="../js/index.js"></script>
   </head>
-  <body>
-    <header class="flex flex-row items-centers justify-between p-5">
+  <body class="relative">
+    <header class="sticky top-0 order-4 flex flex-row items-centers justify-between p-5 bg-white">
       <img class="max-h-[50px]" src="../img/icon.png" alt="icon" />
-      <nav class="hidden md:flex items-center ">
-        <ul class="flex flex-row gap-4">
-          <li>Home</li>
-          <li>Join us</li>
-          <li>Lesons</li>
-          <li>About us</li>
-          <li>Contacts</li>
+      <nav class="hidden md:flex items-center">
+        <ul class="flex flex-row gap-4 md:text-lg">
+          <li class="link-red">Home</li>
+          <li class="link-red">Join us</li>
+          <li class="link-red">Lessons</li>
+          <li class="link-red">About us</li>
+          <li class="link-red">Contacts</li>
         </ul>
       </nav>
       <p class="text-3xl flex items-center md:hidden">☰</p>
     </header>
-    <body></body>
+    <body>
+      <section class="h-[92vh] bg-mainBg bg-cover bg-no-repeat relative">
+        <div class="flex flex-col justify-center items-start absolute bottom-60 right-10 gap-5">
+          <h2 class="font-bold text-4xl">Learn japanese today!</h2>
+          <p class="max-w-[500px] text-xl font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, corrupti sit ipsa nesciunt eum praesentium atque dolores, fugit rem iure omnis saepe earum ipsum laudantium officia incidunt tenetur quidem! Reprehenderit.</p>
+        </div>
+      </section>
+    </body>
     <footer
       class="flex flex-col lg:flex-row justify-around items-center p-5 gap-7 bg-stone-700 text-white"
     >
       <img class="max-w-[250px]" src="../img/icon.png" alt="icon" />
       <nav>
         <h3
-          class="text-center text-xl font-bold border-b-2 border-white  border-solid mb-2"
+          class="text-center text-xl font-bold border-b-2 border-white border-solid mb-2"
         >
           Links
         </h3>
-        <ul class="flex flex-col md:flex-row gap-4 text-center">
-          <li>Home</li>
-          <li>Join us</li>
-          <li>Lessons</li>
-          <li>About us</li>
-          <li>Contacts</li>
+        <ul class="flex flex-col md:flex-row gap-4 text-center md:text-lg">
+          <li class="link-red">Home</li>
+          <li class="link-red">Join us</li>
+          <li class="link-red">Lessons</li>
+          <li class="link-red">About us</li>
+          <li class="link-red">Contacts</li>
         </ul>
       </nav>
-      <div class="flex flex-col gap-2">
+      <div class="flex flex-col gap-2 md:text-lg">
         <h3
           class="text-center text-xl font-bold border-b-2 border-white border-solid mb-2"
         >
