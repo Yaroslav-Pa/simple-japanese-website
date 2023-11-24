@@ -7,7 +7,8 @@
 }
 
 .link-red,
-.card {
+.card,
+.button-v1 {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
@@ -26,12 +27,26 @@
   text-align: center;
   border: 2px solid rgb(214 211 209);
   padding: 20px;
-
   filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
 
 .card:hover{
   border: 2px solid #d13b3b;
-  background-color: rgb(214 211 209);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
+}
+
+.button-v1{
+  box-sizing: border-box;
+  max-width: min-content;
+  max-height: min-content;
+  padding: 12px 32px;
+  border: black 2px solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.button-v1:hover{
+  border: white 2px solid ;
+  color: white;
+  background-color: #cf2e2e;
 }
