@@ -7,7 +7,8 @@ module.exports = {
         'mainBg': "url('/src/img/main-min.jpg')"
       },
       gridTemplateColumns: {
-        'three200': 'repeat(3, minmax(200px,300px))',
+        'two200': 'repeat(2, minmax(200px,250px))',
+        'three300': 'repeat(3, minmax(200px,300px))',
       }
     },
   },
