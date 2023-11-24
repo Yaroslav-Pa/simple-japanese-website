@@ -12,5 +12,20 @@
   transition-duration: 150ms;
 }
 .link-red:hover{
+  cursor: pointer;
   color: #ef4444;
 }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  border: 2px solid rgb(214 211 209);
+  padding: 20px;
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+}
+
+.card

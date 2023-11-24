@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jp site</title>
-    <link rel="stylesheet" href="../css/reset.css" />
+    <title>Japanese site</title>
+    <!-- <link rel="stylesheet" href="../css/reset.css" /> -->
     <link rel="stylesheet" href="../css/output.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <script defer src="../js/index.js"></script>
   </head>
   <body class="relative">
-    <header class="sticky top-0 order-4 flex flex-row items-centers justify-between p-5 bg-white">
+    <header class="sticky top-0 z-10 flex flex-row items-centers justify-between px-5 py-2 bg-white">
       <img class="max-h-[50px]" src="../img/icon.png" alt="icon" />
       <nav class="hidden md:flex items-center">
         <ul class="flex flex-row gap-4 md:text-lg">
@@ -21,14 +21,21 @@
           <li class="link-red">Contacts</li>
         </ul>
       </nav>
-      <p class="text-3xl flex items-center md:hidden">☰</p>
+      <p class="text-3xl flex items-center md:hidden hover:cursor-pointer">☰</p>
     </header>
     <body>
-      <section class="h-[92vh] bg-mainBg bg-cover bg-no-repeat relative">
-        <div class="flex flex-col justify-center items-start absolute bottom-60 right-10 gap-5">
+      <section class="h-[92vh] bg-mainBg bg-cover bg-no-repeat relative z-0 ">
+        <div class="flex flex-col justify-center items-center md:items-start text-center md:text-left md:absolute md:top-30 xl:top-60 md:right-10 gap-5 pt-16">
           <h2 class="font-bold text-4xl">Learn japanese today!</h2>
           <p class="max-w-[500px] text-xl font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, corrupti sit ipsa nesciunt eum praesentium atque dolores, fugit rem iure omnis saepe earum ipsum laudantium officia incidunt tenetur quidem! Reprehenderit.</p>
         </div>
+      </section>
+      <section class="grid grid-cols-three200 gap-6 justify-center my-10">
+        <section class="card">
+          <img class="max-w-[100px]" src="../img/icon.png" alt="icon" />
+          <h3>Join</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
       </section>
     </body>
     <footer
