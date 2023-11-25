@@ -38,7 +38,7 @@
 
 .button-v1{
   box-sizing: border-box;
-  max-width: min-content;
+  max-width: 400px;
   max-height: min-content;
   padding: 12px 32px;
   border: black 2px solid;

@@ -3,25 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jp site - About Us</title>
-    <link rel="stylesheet" href="../css/reset.css" />
+    <title>Japanese site</title>
+    <!-- <link rel="stylesheet" href="../css/reset.css" /> -->
+    <link rel="icon" type="image/x-icon" href="../img/icon.png" />
     <link rel="stylesheet" href="../css/output.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <script defer src="../js/index.js"></script>
   </head>
-  <body>
-    <header class="h-[8vh] sticky top-0 z-10 flex flex-row items-centers justify-between px-5 py-2 bg-white">
-      <img class="max-h-[50px]" src="../img/icon.png" alt="icon" />
+  <body class="relative">
+    <header
+      class="h-[8vh] sticky top-0 z-10 flex flex-row items-centers justify-between px-5 py-2 bg-white"
+    >
+      <div class="flex flex-row items-center gap-3">
+        <img class="max-h-[50px]" src="../img/icon.png" alt="icon" />
+        <h1 class="text-base lg:text-2xl font-bold">日本のビッチを学ぶ</h1>
+      </div>
       <nav class="hidden md:flex items-center">
         <ul class="flex flex-row gap-4 md:text-lg">
           <li class="link-red"><a href="./index.html">Home</a></li>
           <li class="link-red"><a href="./joinUs.html">Join Us</a></li>
-          <li class="link-red"><a href="#">Lessons</a></li>
+          <li class="link-red"><a href="./lessons.html">Lessons</a></li>
           <li class="link-red"><a href="./aboutUs.html">About Us</a></li>
           <li class="link-red"><a href="./contacts.html">Contacts</a></li>
         </ul>
       </nav>
-      <p class="text-3xl flex items-center md:hidden">☰</p>
+      <p class="text-3xl flex items-center md:hidden hover:cursor-pointer">☰</p>
     </header>
+    <main>
+      <section class="bg-gradient-to-r from-red-300 to-[#c9efee] my-16">
+        <div
+          class="flex flex-col justify-center items-center gap-4 p-5 text-center"
+        >
+          <h3 class="font-bold text-2xl border-black border-b-2 border-solid">
+            About Us
+          </h3>
+          <p class="max-w-[750px]">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+            dolor soluta consequuntur, dolore commodi ipsam cumque praesentium
+            maiores ea laudantium quibusdam. Dicta saepe ab dignissimos
+            laudantium voluptates error ad molestias itaque velit! Laboriosam
+            ullam possimus quis odio exercitationem repudiandae consectetur?
+          </p>
+          <div class="flex flex-col lg:flex-row gap-5 lg:gap-10">
+            <a class="button-v1" href="">Our Mission</a>
+            <a class="button-v1" href="">Why Choose Us</a>
+            <a class="button-v1" href="">Community</a>
+            <a class="button-v1" href="">Begin Your Journey</a>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-col items-center my-16">
+        <section class="flex flex-row">
+          <div class="max-w-[600px] flex flex-col mx-10 md:mx-14 gap-5 lg:gap-10">
+            <h3 class="text-2xl font-semibold py-5 px-10 bg-gradient-to-r from-rose-200 to-violet-200  rounded-lg text-center md:text-left">
+              Our Mission
+            </h3>
+            <p class="">At the core of our mission is the belief that learning a language extends far beyond mere words; it's about embracing a new way of thinking and immersing oneself in the rich tapestry of a different culture. Our aim is to provide an unparalleled learning experience that goes beyond textbooks, offering students a holistic approach to mastering the Japanese language.</p>
+          </div>
+          <img src="../img/1530x900-horizontal-41.jpg" class="max-w-[450px] rounded-lg" alt="">
+        </section>
+
+
+      </section>
+    </main>
+    <footer
+      class="flex flex-col lg:flex-row justify-around items-center p-5 gap-7 bg-stone-700 text-white"
+    >
+      <div class="flex flex-col items-center gap-3">
+        <img class="max-h-[150px]" src="../img/icon.png" alt="icon" />
+        <h1 class="text-2xl">日本のビッチを学ぶ</h1>
+      </div>
+      <nav>
+        <h3
+          class="text-center text-xl font-bold border-b-2 border-white border-solid mb-2"
+        >
+          Links
+        </h3>
+        <ul class="flex flex-col md:flex-row gap-4 text-center md:text-lg">
+          <li class="link-red">Home</li>
+          <li class="link-red">Join us</li>
+          <li class="link-red">Lessons</li>
+          <li class="link-red">About us</li>
+          <li class="link-red">Contacts</li>
+        </ul>
+      </nav>
+      <div class="flex flex-col gap-2 md:text-lg">
+        <h3
+          class="text-center text-xl font-bold border-b-2 border-white border-solid mb-2"
+        >
+          Contacts
+        </h3>
+        <p>Lorem ipsum dolor, sit amet</p>
+        <p>Lorem ipsum dolor, sit amet</p>
+        <p>Lorem ipsum dolor, sit amet</p>
+        <p>Lorem ipsum dolor, sit amet</p>
+      </div>
+    </footer>
   </body>
 </html>
