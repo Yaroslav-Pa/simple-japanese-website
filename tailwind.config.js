@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mainBg': "url('/src/img/main-min.jpg')"
+        'mainBg': "url('/src/img/main-min.jpg')",
+        'bgForButton1': "url('/src/img/lang-japanese-introductory-course-header.jpg')",
+        'bgForButton2': "url('/src/img/japanese-sakura.jpg')"
       },
       gridTemplateColumns: {
         'two200': 'repeat(2, minmax(200px,250px))',

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Japanese site</title>
     <!-- <link rel="stylesheet" href="../css/reset.css" /> -->
+    <link rel="icon" type="image/x-icon" href="../img/icon.png" />
     <link rel="stylesheet" href="../css/output.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <script defer src="../js/index.js"></script>
@@ -13,9 +14,10 @@
     <header
       class="h-[8vh] sticky top-0 z-10 flex flex-row items-centers justify-between px-5 py-2 bg-white border-b border-gray-300 border-solid"
     >
-      <a href="#"
-        ><img class="max-h-[50px]" src="../img/icon.png" alt="icon"
-      /></a>
+      <a href="./index.html" class="flex flex-row items-center gap-4">
+        <img class="max-h-[50px]" src="../img/icon.png" alt="icon" />
+        <h1 class="text-base lg:text-2xl font-bold">日本のビッチを学ぶ</h1>
+      </a>
       <nav class="hidden md:flex items-center">
         <ul class="flex flex-row gap-4 md:text-lg">
           <li class="link-red"><a href="#">Home</a></li>
@@ -79,7 +81,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </section>
       </section>
-      <section class="bg-gradient-to-r from-red-300 to-slate-400">
+      <!-- Line -->
+      <section class="bg-gradient-to-r from-red-300 to-[#c9efee] my-16">
         <div
           class="flex flex-col justify-center items-center gap-4 p-5 text-center"
         >
@@ -93,18 +96,107 @@
             laudantium voluptates error ad molestias itaque velit! Laboriosam
             ullam possimus quis odio exercitationem repudiandae consectetur?
           </p>
-          <a
-            href="./joinUs.html"
-            class="px-8 py-3 border-black border-2 border-solid rounded-lg"
-            >Join!</a
-          >
+          <a class="button-v1">Join!</a>
+        </div>
+      </section>
+      <!-- Plates swiches  -->
+      <section class="flex flex-col gap-16 justify-center items-center my-16">
+        <div
+          class="flex flex-col lg:flex-row gap-8 items-center max-w-[1000px] px-5 md:px-10"
+        >
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dicta
+            laudantium molestias rerum, ut commodi atque quae facilis ipsam quo
+            ab deserunt sequi at quia dolorem molestiae! Cum, debitis
+            temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dicta, ipsa, saepe ea labore sed voluptas repellat natus fuga
+            necessitatibus corrupti quaerat numquam quos dolores ab accusamus
+            enim tempora quidem vero!
+          </p>
+          <img
+            class="max-w-[250px] md:max-w-[500px]"
+            src="../img/desktop-wallpaper-japanese-school-in-tokyo-shinjuku-japanese-language-institute.jpg"
+            alt="school"
+          />
+        </div>
+        <div
+          class="flex flex-col lg:flex-row gap-8 items-center max-w-[1000px] px-5 md:px-10"
+        >
+          <img
+            class="max-w-[250px] md:max-w-[500px] order-1 lg:order-0"
+            src="../img/desktop-wallpaper-japanese-school-in-tokyo-shinjuku-japanese-language-institute.jpg"
+            alt="school"
+          />
+          <p class="order-0 lg:order-1">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dicta
+            laudantium molestias rerum, ut commodi atque quae facilis ipsam quo
+            ab deserunt sequi at quia dolorem molestiae! Cum, debitis
+            temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dicta, ipsa, saepe ea labore sed voluptas repellat natus fuga
+            necessitatibus corrupti quaerat numquam quos dolores ab accusamus
+            enim tempora quidem vero!
+          </p>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row gap-8 items-center max-w-[1000px] px-5 md:px-10"
+        >
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dicta
+            laudantium molestias rerum, ut commodi atque quae facilis ipsam quo
+            ab deserunt sequi at quia dolorem molestiae! Cum, debitis
+            temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dicta, ipsa, saepe ea labore sed voluptas repellat natus fuga
+            necessitatibus corrupti quaerat numquam quos dolores ab accusamus
+            enim tempora quidem vero!
+          </p>
+          <img
+            class="max-w-[250px] md:max-w-[500px]"
+            src="../img/desktop-wallpaper-japanese-school-in-tokyo-shinjuku-japanese-language-institute.jpg"
+            alt="school"
+          />
+        </div>
+      </section>
+      <!-- Slim buttons -->
+      <section
+        class="grid grid-cols-[290px] sm:grid-cols-[600px] xl:grid-cols-[600px_700px] justify-center items-center gap-12 lg:gap-6 my-32"
+      >
+        <div class="flex flex-col gap-5">
+          <h3 class="text-2xl text-center font-bold border-b-2 border-black">
+            Do you want to start learning?
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            sapiente laudantium, impedit ipsum suscipit commodi. Debitis labore,
+            nostrum asperiores magnam ad officiis nulla veritatis omnis
+            consectetur. Omnis tenetur sequi obcaecati.
+          </p>
+        </div>
+        <div class="flex flex-col gap-3 items-center">
+          <div class="bg-bgForButton2 border-2 border-black rounded-lg w-full">
+            <a
+              href="./lessons.html"
+              class="block text-right w-full px-10 py-5 text-2xl font-semibold hover:text-white bg-[rgba(221,221,221,0.52)] hover:bg-[rgba(83,67,67,0.69)]"
+              >Want to start practising?</a
+            >
+          </div>
+          or
+          <div class="bg-bgForButton1 border-2 border-black rounded-lg w-full">
+            <a
+              href="./aboutUs.html"
+              class="block transition-all w-full px-10 py-5 text-2xl font-semibold hover:text-white bg-[rgba(221,221,221,0.52)] hover:bg-[rgba(83,67,67,0.69)]"
+              >You want to learn more?</a
+            >
+          </div>
         </div>
       </section>
     </main>
     <footer
       class="flex flex-col lg:flex-row justify-around items-center p-5 gap-7 bg-stone-700 text-white"
     >
-      <img class="max-w-[250px]" src="../img/icon.png" alt="icon" />
+      <div class="flex flex-col items-center gap-3">
+        <img class="max-h-[150px]" src="../img/icon.png" alt="icon" />
+        <h1 class="text-2xl">日本のビッチを学ぶ</h1>
+      </div>
       <nav>
         <h3
           class="text-center text-xl font-bold border-b-2 border-white border-solid mb-2"
@@ -112,7 +204,7 @@
           Links
         </h3>
         <ul class="flex flex-col md:flex-row gap-4 text-center md:text-lg">
-          <li class="link-red"><a href="#">Home</a></li>
+          <li class="link-red"><a href="./index.html">Home</a></li>
           <li class="link-red"><a href="./joinUs.html">Join Us</a></li>
           <li class="link-red"><a href="./lessons.html">Lessons</a></li>
           <li class="link-red"><a href="./aboutUs.html">About Us</a></li>
