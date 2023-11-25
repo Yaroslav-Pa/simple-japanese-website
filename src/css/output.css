@@ -572,25 +572,12 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mx-\[10\%\] {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.block {
-  display: block;
-}
-
-.inline-block {
-  display: inline-block;
 }
 
 .flex {
@@ -617,6 +604,14 @@ video {
   max-height: 50px;
 }
 
+.min-h-\[40vh\] {
+  min-height: 40vh;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
 .w-\[60\%\] {
   width: 60%;
 }
@@ -624,6 +619,10 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.min-w-\[450px\] {
+  min-width: 450px;
 }
 
 .max-w-\[100px\] {
@@ -640,18 +639,6 @@ video {
 
 .max-w-\[750px\] {
   max-width: 750px;
-}
-
-.max-w-\[60\%\] {
-  max-width: 60%;
-}
-
-.max-w-\[50\%\] {
-  max-width: 50%;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .grid-cols-\[minmax\(200px\2c 250px\)\] {
@@ -698,6 +685,10 @@ video {
   gap: 1.75rem;
 }
 
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -708,6 +699,10 @@ video {
 
 .border-4 {
   border-width: 4px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-b-2 {
@@ -723,24 +718,19 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.border-sky-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-\[\#d13b3b\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 59 59 / var(--tw-border-opacity));
-}
-
-.border-green-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(21 128 61 / var(--tw-border-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-stone-700 {
@@ -753,9 +743,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#d6d3d1\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(214 211 209 / var(--tw-bg-opacity));
+.bg-opacity-\[0\.7\] {
+  --tw-bg-opacity: 0.7;
+}
+
+.bg-\[url\(\.\.\/img\/landscape-of-japanese-torii-gate_23-2148658713\.jpg\)\] {
+  background-image: url(../img/landscape-of-japanese-torii-gate_23-2148658713.jpg);
 }
 
 .bg-gradient-to-r {
@@ -858,32 +851,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.outline-dashed {
-  outline-style: dashed;
-}
-
-.outline-double {
-  outline-style: double;
-}
-
-.outline-2 {
-  outline-width: 2px;
-}
-
-.outline-4 {
-  outline-width: 4px;
-}
-
-.outline-8 {
-  outline-width: 8px;
-}
-
-.outline-black {
-  outline-color: #000;
-}
-
-.outline-\[\#d13b3b\;\] {
-  outline-color: #d13b3b;;
+.underline {
+  text-decoration-line: underline;
 }
 
 *{
