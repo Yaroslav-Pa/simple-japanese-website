@@ -572,6 +572,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -606,6 +611,18 @@ video {
 
 .min-h-\[40vh\] {
   min-height: 40vh;
+}
+
+.min-h-\[92vh\] {
+  min-height: 92vh;
+}
+
+.min-h-\[46vh\] {
+  min-height: 46vh;
+}
+
+.min-h-\[50vh\] {
+  min-height: 50vh;
 }
 
 .w-\[30\%\] {
@@ -747,6 +764,10 @@ video {
   --tw-bg-opacity: 0.7;
 }
 
+.bg-opacity-\[0\.8\] {
+  --tw-bg-opacity: 0.8;
+}
+
 .bg-\[url\(\.\.\/img\/landscape-of-japanese-torii-gate_23-2148658713\.jpg\)\] {
   background-image: url(../img/landscape-of-japanese-torii-gate_23-2148658713.jpg);
 }
@@ -757,6 +778,10 @@ video {
 
 .bg-mainBg {
   background-image: url('/src/img/main-min.jpg');
+}
+
+.bg-\[url\(\.\/\.\.\/img\/lang-japanese-introductory-course-header\.jpg\)\] {
+  background-image: url(./../img/lang-japanese-introductory-course-header.jpg);
 }
 
 .from-red-300 {
@@ -775,6 +800,14 @@ video {
 
 .bg-bottom {
   background-position: bottom;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
