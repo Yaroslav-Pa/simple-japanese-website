@@ -591,12 +591,26 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .block {
@@ -676,6 +690,15 @@ video {
   max-width: 750px;
 }
 
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -744,6 +767,10 @@ video {
   gap: 2rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -801,6 +828,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-bgForButton1 {
@@ -1093,6 +1125,18 @@ video {
     order: 1;
   }
 
+  .lg\:order-10 {
+    order: 10;
+  }
+
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:max-w-\[450px\] {
+    max-width: 450px;
+  }
+
   .lg\:grid-cols-\[600px_700px\] {
     grid-template-columns: 600px 700px;
   }
@@ -1118,5 +1162,9 @@ video {
 @media (min-width: 1280px) {
   .xl\:top-60 {
     top: 15rem;
+  }
+
+  .xl\:grid-cols-\[600px_700px\] {
+    grid-template-columns: 600px 700px;
   }
 }
