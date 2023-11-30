@@ -576,11 +576,6 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -594,6 +589,11 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-14 {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .mb-2 {
@@ -648,18 +648,6 @@ video {
   min-height: 50vh;
 }
 
-.min-h-\[300px\] {
-  min-height: 300px;
-}
-
-.min-h-\[200px\] {
-  min-height: 200px;
-}
-
-.min-h-\[100px\] {
-  min-height: 100px;
-}
-
 .min-h-\[92vh\] {
   min-height: 92vh;
 }
@@ -685,6 +673,10 @@ video {
   min-width: 450px;
 }
 
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .max-w-\[1000px\] {
   max-width: 1000px;
 }
@@ -705,20 +697,16 @@ video {
   max-width: 500px;
 }
 
+.max-w-\[60\%\] {
+  max-width: 60%;
+}
+
 .max-w-\[600px\] {
   max-width: 600px;
 }
 
 .max-w-\[750px\] {
   max-width: 750px;
-}
-
-.max-w-\[60\%\] {
-  max-width: 60%;
-}
-
-.max-w-\[80\%\] {
-  max-width: 80%;
 }
 
 .grid-cols-\[290px\] {
@@ -827,6 +815,11 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .border-sky-500 {
   --tw-border-opacity: 1;
   border-color: rgb(14 165 233 / var(--tw-border-opacity));
@@ -835,11 +828,6 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-red-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 
 .bg-\[rgba\(221\2c 221\2c 221\2c 0\.52\)\] {
@@ -856,35 +844,20 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-pink-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
-}
-
-.bg-pink-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+.bg-opacity-\[0\.7\] {
+  --tw-bg-opacity: 0.7;
 }
 
 .bg-opacity-\[0\.8\] {
   --tw-bg-opacity: 0.8;
 }
 
-.bg-opacity-\[0\.7\] {
-  --tw-bg-opacity: 0.7;
-}
-
 .bg-\[url\(\.\.\/img\/landscape-of-japanese-torii-gate_23-2148658713\.jpg\)\] {
   background-image: url(../img/landscape-of-japanese-torii-gate_23-2148658713.jpg);
 }
 
-.bg-\[url\(\.\/\.\.\/img\/lang-japanese-introductory-course-header\.jpg\)\] {
-  background-image: url(./../img/lang-japanese-introductory-course-header.jpg);
+.bg-\[url\(\.\/\.\.\/img\/ancient-torii-gate-with-lanterns_52683-44719\.jpg\)\] {
+  background-image: url(./../img/ancient-torii-gate-with-lanterns_52683-44719.jpg);
 }
 
 .bg-bgForButton1 {
@@ -901,22 +874,6 @@ video {
 
 .bg-mainBg {
   background-image: url('/src/img/main-min.jpg');
-}
-
-.bg-\[url\(\.red-purple-night\.png\)\] {
-  background-image: url(.red-purple-night.png);
-}
-
-.bg-\[url\(\.\/red-purple-night\.png\)\] {
-  background-image: url(./red-purple-night.png);
-}
-
-.bg-\[url\(\.\/\.\.\/img\/red-purple-night\.png\)\] {
-  background-image: url(./../img/red-purple-night.png);
-}
-
-.bg-\[url\(\.\/\.\.\/img\/ancient-torii-gate-with-lanterns_52683-44719\.jpg\)\] {
-  background-image: url(./../img/ancient-torii-gate-with-lanterns_52683-44719.jpg);
 }
 
 .from-red-300 {
@@ -949,10 +906,6 @@ video {
 
 .bg-center {
   background-position: center;
-}
-
-.bg-top {
-  background-position: top;
 }
 
 .bg-no-repeat {
@@ -988,14 +941,14 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pt-16 {
