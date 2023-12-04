@@ -8,8 +8,10 @@
     <link rel="icon" type="image/x-icon" href="../img/icon.png" />
     <link rel="stylesheet" href="../css/output.css" />
     <link rel="stylesheet" href="../css/index.css" />
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script defer src="../js/index.js"></script>
   </head>
+
   <body class="relative">
     <header
       class="h-[8vh] sticky top-0 z-10 flex flex-row items-centers justify-between px-5 py-2 bg-white border-b border-gray-300 border-solid"
@@ -27,8 +29,18 @@
           <li class="link-red"><a href="./contacts.html">Contacts</a></li>
         </ul>
       </nav>
-      <p class="text-3xl flex items-center md:hidden hover:cursor-pointer">☰</p>
+      <p class="text-3xl flex items-center md:hidden hover:cursor-pointer" onclick="burgerOpenClose()">☰</p>    
     </header>
+    <nav class="hidden top-0 left-0 right-0 bottom-0 md:hidden bg-white z-20" id="menu">
+      <ul class="sticky top-10 left-0 right-0 flex flex-col gap-5 text-base md:text-lg items-center">
+        <li class="link-red"><a href="#">Home</a></li>
+        <li class="link-red"><a href="./joinUs.html">Join Us</a></li>
+        <li class="link-red"><a href="./lessons.html">Lessons</a></li>
+        <li class="link-red"><a href="./aboutUs.html">About Us</a></li>
+        <li class="link-red"><a href="./contacts.html">Contacts</a></li>
+        <p class="text-3xl flex items-center md:hidden hover:cursor-pointer" onclick="burgerOpenClose()">✖</p>    
+      </ul>
+    </nav>
     <main>
       <!-- backImg -->
       <section
@@ -58,7 +70,7 @@
           </p>
         </section>
         <section class="card">
-          <img class="max-w-[100px]" src="../img/icon2.png" alt="icon" />
+          <img class="max-w-[100px]" src="../img/icon2+.png" alt="icon" />
           <h3 class="text-xl font-bold">Connect</h3>
           <p>
             Connect with a vibrant community of language enthusiasts who share
@@ -66,7 +78,7 @@
           </p>
         </section>
         <section class="card">
-          <img class="max-w-[100px]" src="../img/icon3.png" alt="icon" />
+          <img class="max-w-[100px]" src="../img/icon3+.png" alt="icon" />
           <h3 class="text-xl font-bold">Experience</h3>
           <p>
             Experience dynamic and engaging lessons led by native Japanese
@@ -74,7 +86,7 @@
           </p>
         </section>
         <section class="card">
-          <img class="max-w-[100px]" src="../img/icon4.png" alt="icon" />
+          <img class="max-w-[100px]" src="../img/icon5-removebg-preview.png" alt="icon" />
           <h3 class="text-xl font-bold">Achieve</h3>
           <p>
             Achieve language proficiency with personalized courses tailored to
@@ -82,7 +94,7 @@
           </p>
         </section>
         <section class="card">
-          <img class="max-w-[100px]" src="../img/icon5.png" alt="icon" />
+          <img class="max-w-[100px]" src="../img/icon5+.png" alt="icon" />
           <h3 class="text-xl font-bold">Immerse</h3>
           <p>
             Immerse yourself in the beauty of Japanese language and culture
@@ -90,7 +102,7 @@
           </p>
         </section>
         <section class="card">
-          <img class="max-w-[100px]" src="../img/icon6.png" alt="icon" />
+          <img class="max-w-[100px]" src="../img/icon12-removebg-preview.png" alt="icon" />
           <h3 class="text-xl font-bold">Succeed</h3>
           <p>
             Succeed in your language learning goals with us, where your success
